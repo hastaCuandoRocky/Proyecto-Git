@@ -6,3 +6,6 @@ Juliet Escalona
 Heiber 
 Santiago
 Gerardo Jimenez  
+
+# parte juliet listo
+Listo agregado
