@@ -1,0 +1,99 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/github-explained.png'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Hace que el fondo sea elegante al desplazarse */
+    background-color: #292929; /* Color de respaldo profundo para mayor contraste */
+    color: #f5f5f5; /* Texto claro para una buena visibilidad */
+}
+
+/* Encabezado */
+header {
+    background: rgba(45, 45, 45, 0.9); /* Fondo semi-opaco para resaltar sobre el fondo */
+    color: #ffffff; /* Texto blanco para claridad */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #6a6a6a; /* Línea decorativa sutil */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 1px; /* Espaciado elegante */
+}
+
+/* Contenedor principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.85); /* Fondo claro con transparencia */
+    border-radius: 12px; /* Bordes suaves */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); /* Sombra elegante */
+    color: #333; /* Texto oscuro para contraste limpio */
+}
+
+/* Secciones */
+section {
+    margin-bottom: 30px;
+}
+
+/* Títulos */
+h2 {
+    color: #4a90e2; /* Azul suave y sofisticado */
+    border-bottom: 1px solid #dcdcdc; /* Línea decorativa */
+    padding-bottom: 5px;
+    font-style: italic; /* Toque elegante */
+}
+
+/* Listas ordenadas y no ordenadas */
+ol, ul {
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+/* Elementos de lista */
+li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    font-weight: 300; /* Estilo ligero */
+}
+
+/* Enlaces */
+a {
+    color: #9ab87a; /* Verde grisáceo suave */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b2c9a9; /* Color más claro al pasar el cursor */
+}
+
+/* Pie de página */
+footer {
+    background: rgba(20, 20, 20, 0.9); /* Fondo oscuro */
+    color: #e0e0e0; /* Texto suave */
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+    border-top: 1px solid #4a4a4a; /* Línea decorativa */
+}
+
+/* Resaltado de comandos */
+strong {
+    color: #2e2e2e;
+    background-color: #e9e9e9; /* Fondo gris claro */
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace; /* Estilo de código */
+}
