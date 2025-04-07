@@ -1,3 +1,6 @@
+
+# "Desde Santiago para el mundo hecho con amor ❤❤"
+
 # "mensaje"
 En la carpeta assets van los estilos y las imagenes
 
@@ -9,3 +12,4 @@ Gerardo Jimenez
 
 # parte juliet listo
 Listo agregado
+
